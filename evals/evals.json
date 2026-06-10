@@ -1,0 +1,29 @@
+﻿{
+  "skill_name": "doubao-video-creator",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "帮我生成一个5秒的动漫视频，内容是蓝天下风吹过草地，阳光明媚",
+      "expected_output": "成功提交文生视频任务，返回任务ID，后续可查询状态",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "用这张参考图片生成一个3秒视频，内容是人物微笑眨眼，头发飘动",
+      "expected_output": "成功提交图生视频任务，返回任务ID",
+      "files": ["./test_avatar.jpg"]
+    },
+    {
+      "id": 3,
+      "prompt": "看看我之前的视频生成好了吗",
+      "expected_output": "查询所有任务状态，显示生成进度和保存路径",
+      "files": []
+    },
+    {
+      "id": 4,
+      "prompt": "下载任务ID为cgt-20260610-xxxx的视频到桌面",
+      "expected_output": "成功下载视频到指定路径，返回保存位置",
+      "files": []
+    }
+  ]
+}

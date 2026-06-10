@@ -1,0 +1,7 @@
+﻿__pycache__/
+*.pyc
+config/config.yaml
+output/*
+tasks/*
+*.log
+.DS_Store
