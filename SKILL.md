@@ -1,4 +1,4 @@
-﻿---
+---
 name: doubao-video-creator
 description: 调用字节跳动豆包seedance-2.0视频生成大模型，支持文生视频、单图生视频、首尾帧过渡视频，异步任务管理，自动下载结果。当用户提到生成视频、制作动画、文生视频、图生视频、豆包视频生成、seedance视频生成、AI短视频制作、动漫视频生成时，必须使用这个技能。
 compatibility: Python 3.10+, 依赖volcengine-python-sdk[ark], pyyaml, requests
